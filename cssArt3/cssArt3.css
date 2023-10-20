@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-color:#FEFAE0;
+    position:relative;
+  }
+  div {
+    content:"";
+    display:block;
+    width: 160px;
+    height: 160px;
+    background: #9CCCDB;
+    transform:rotate(45deg);
+  }
+  div:after {
+    content:"";
+    display:block;
+    width: 80px;
+    height: 80px;
+    background: #A461E8;
+  }
